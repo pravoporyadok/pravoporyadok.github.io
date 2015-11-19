@@ -1,0 +1,108 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    min-width: 800px;
+    max-width: 800px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+h1 {
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+a:link, a:visited {
+    color: black;
+}
+
+a:hover, a:focus, a:active {
+    color: red;
+}
+
+img {
+    border: 0
+}
+
+p {
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+li.selected {
+    font-size: 140%;
+}
+
+#menu li {
+    margin-bottom: 15px;
+}
+
+#header {
+    margin-top: 10px;
+    height: 260px;
+    border-bottom: 2px solid gray;
+}
+
+#logo {
+    width: 35%;
+    float: left;
+}
+
+#organization {
+    width: 65%;
+    float: right;
+}
+
+#lang {
+    float: right;
+    margin-top: 115px;
+}
+
+#ua {
+    text-decoration: none;
+}
+
+#ru {
+    text-decoration: none;
+}
+
+#en {
+    text-decoration: none;
+}
+
+#coat_of_arms {
+    width: 15%;
+    float: right;
+}
+
+
+#sidebar {
+    width: 35%;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#content {
+    width: 65%;
+    float: right;
+    margin-bottom: 10px;
+}
+
+#copyright {
+    clear: both;
+    text-align: right;
+    font-size: 90%;
+
+    padding-top: 10px;
+    border-top: 2px solid gray;
+}
+
