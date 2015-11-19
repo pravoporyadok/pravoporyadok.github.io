@@ -1,51 +1,86 @@
-{% if ru %}
-<p> В январе 2013 года трудовой коллектив ЧП «Правопорядок» стал членом
-Всеукраинской общественной организации
-<a href="http://ufrnsb.kiev.ua">«Украинская федерация
-профессионалов безопасности»</a>.</p>
-{% endif %}
-{% if ua %}
-<p> У січні 2013 року трудовий колектив ПП «Правопорядок» став членом
-Всеукраїнської громадської організації
-<a href="http://ufrnsb.kiev.ua"> «Українська федерація
-професіоналів безпеки»</a>.</p>
-{% endif %}
-{% if en %}
-<p>In January 2013 the team of Ltd. «Pravoporyadok» has become a member
-Ukrainian public organization
-<a href="http://ufrnsb.kiev.ua">«Security Professionals
-Ukrainian Federation»</a>.</p>
-{% endif %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<script type="text/javascript"
+		src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js">
+	</script>
+	<script type="text/javascript">
 
-{% if ru %}
-<p>Одним из основных партнеров предприятия с начала работы охранного агентства
-является Харьковский филиал ООО <a href=http://venbest.com.ua>«ВЕНБЕСТ»</a>,
-группы быстрого реагирования которого выезжают по сигналу «тревога» или вызову на объекты ЧП «Правопорядок».</p>
-{% endif %}
-{% if ua %}
-<p>Одним з основних партнерів підприємства з початку роботи охоронного агентства
-є Харківська філія ТОВ <a href=http://venbest.com.ua>«ВЕНБЕСТ»</a>,
-групи швидкого реагування якого виїжджають за сигналом «тривога» або викликом на об'єкти ПП «Правопорядок».</p>
-{% endif %}
-{% if en %}
-<p>One of the main enterprise partners since the beginning of agency work
-is Kharkov branch of Ltd. <a href=http://venbest.com.ua>«VENBEST»</a>. VENBEST's
-Rapid Responce groups are reacting to alarm signals of our clients.</p>
-{% endif %}
+		$(document).ready(function() {
+			$("#{{selected_li}}").addClass("selected");
+		});
 
-{% if ru %}
-<p>С 14 января 2011 года согласно рекомендаций МВД Украины от 14.10.2010 № 19111/Рт,
-состав групп быстрого реагирования усилен нарядами сотрудников милиции, вооруженных
-табельным огнестрельным оружием.</p>
-{% endif %}
-{% if ua %}
-<p>З 14 січня 2011 року на виконання рекомендацій
-МВС України від 14.10.2010 № 19111/Рт, склад груп швидкого реагування посилений 
-нарядами працівників міліції, озброєних
-табельною вогнепальною зброєю.</p>
-{% endif %}
-{% if en %}
-<p>From 14 January 2011 to implement the recommendations of
-Ministry of Ukraine 14.10.2010 № 19111/Rt, the Rapid Response groups are 
-reinforced with police workers, armed with guns. </p>
-{% endif %}
+	</script>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>
+		Правопорядок
+	</title>
+	<link rel = "stylesheet" type = "text/css" href = "static/style/frame3.css" />
+</head>
+<body>
+	<div id="header">
+		<div id="logo">
+			<a href="/">
+				<img src = "static/images/logo.gif" style="border:none;" alt="Logo" />
+			</a>
+		</div>
+
+		<div id="organization">
+		<table id="header_table">
+			<tr>
+				<td id="title_td">
+					<h1>
+						Правопорядок
+					</h1>
+					<h3>
+						 Благородство. Надежность. Безопасность.
+					</h3>
+				</td>
+				<td  id="coat_of_arms_td">
+					<img src = "static/images/coat_of_arms_white.gif" width="80" alt="Kharkov" />
+				</td>
+			</tr>
+		</table>
+		</div>
+	</div>
+
+	<div id="sidebar">
+		<ul id = "menu">
+			<li id="main_li"><a href="/">
+				 Главная </a></li>
+			<li id="events_li"><a href="events">
+				 События </a></li>
+			<li id="services_li"><a href="services">
+				 Услуги </a></li>
+			<li id="price_li"><a href="price">
+				 Цены </a></li>
+			<li id="clients_li"><a href="clients">
+				 Клиенты </a></li>
+			<li id="contacts_li"><a href="contacts">
+				 Контакты </a></li>
+		</ul>
+	</div>
+
+ 	<div id="content">
+		<p> В январе 2013 года трудовой коллектив ЧП «Правопорядок» стал членом
+		Всеукраинской общественной организации
+		<a href="http://ufrnsb.kiev.ua">«Украинская федерация
+		профессионалов безопасности»</a>.</p>
+
+		<p>Одним из основных партнеров предприятия с начала работы охранного агентства
+		является Харьковский филиал ООО <a href=http://venbest.com.ua>«ВЕНБЕСТ»</a>,
+		группы быстрого реагирования которого выезжают по сигналу «тревога» или вызову на объекты ЧП «Правопорядок».</p>
+
+		<p>С 14 января 2011 года согласно рекомендаций МВД Украины от 14.10.2010 № 19111/Рт,
+		состав групп быстрого реагирования усилен нарядами сотрудников милиции, вооруженных
+		табельным огнестрельным оружием.</p>
+	</div>
+
+	<div id="copyright">
+                &copy; 2013 www.pravoporyadok.com.ua
+	</div>
+
+</body>
+</html>
+

@@ -1,35 +1,91 @@
-<p>
-{% if ru %}Базовые услуги охраны представлены в <a href="price">прайс-листе.</a>{% endif %}
-{% if ua %}Базові послуги охорони представлені в <a href="price">прайс-листі.</a>{% endif %}
-{% if en %}Base security services are presented in the <a href="price">price-list.</a>{% endif %}
-</p>
-<p>{% if ru %}Кроме этого специалисты предприятия могут качественно 
-выполнить следующие виды работ:{% endif %}
-{% if ua %}Крім того спеціалісти підприємства зможуть якісно 
-зробити наступні види робіт:{% endif %}
-{% if en %}In addition, our specialists can perform the following 
-types of work with great quality:{% endif %}</p>
-<ul>
-<li>
-{% if ru %}Сигнализация (автономно или с подключением на пульт централизованного наблюдения),
-проектирование, монтаж, доставка оборудования, гарантия;{% endif %}
-{% if ua %}Сигналізація (автономно або з підключенням на пульт централізованого спостереження),
-проектування, монтаж, доставка обладнання, гарантія;{% endif %}
-{% if en %}Alarm (stand-alone or connected to the central monitoring center on the client's demand)
-design, equipment delivery, installation, warranty;{% endif %}</li>
-<li>
-{% if ru %}Видеонаблюдение, домофоны, электрозамки, регистрация информации
-на компьютер или регистратор;{% endif %}
-{% if ua %}Відеоспостереження, домофони, електрозамки, реєстрація інформації 
-на комп’ютер або реєстратор;{% endif %}
-{% if en %}CCTV, intercoms, electrolocks, information registration
-to a computer or recorder;{% endif %}</li>
-<li>
-{% if ru %}Контроль и наблюдение за подвижными объектами, их охрана;{% endif %}
-{% if ua %}Контроль та спостереження за рухомими об'єктами, їх охорона;{% endif %}
-{% if en %}Сontrol and security of transporting vehicles;{% endif %}</li>
-<li>
-{% if ru %}Системы контроля доступа, учет рабочего времени персонала.{% endif %}
-{% if ua %}Системи контролю доступу, облік робочого часу персоналу.{% endif %}
-{% if en %}Systems Access Control, accounting of staff work time.{% endif %}</li>
-</ul>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<script type="text/javascript"
+		src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js">
+	</script>
+	<script type="text/javascript">
+
+		$(document).ready(function() {
+			$("#{{selected_li}}").addClass("selected");
+		});
+
+	</script>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>
+		Правопорядок
+	</title>
+	<link rel = "stylesheet" type = "text/css" href = "static/style/frame3.css" />
+</head>
+<body>
+	<div id="header">
+		<div id="logo">
+			<a href="/">
+				<img src = "static/images/logo.gif" style="border:none;" alt="Logo" />
+			</a>
+		</div>
+
+		<div id="organization">
+		<table id="header_table">
+			<tr>
+				<td id="title_td">
+					<h1>
+						Правопорядок
+					</h1>
+					<h3>
+						 Благородство. Надежность. Безопасность.
+					</h3>
+				</td>
+				<td  id="coat_of_arms_td">
+					<img src = "static/images/coat_of_arms_white.gif" width="80" alt="Kharkov" />
+				</td>
+			</tr>
+		</table>
+		</div>
+	</div>
+
+	<div id="sidebar">
+		<ul id = "menu">
+			<li id="main_li"><a href="/">
+				 Главная </a></li>
+			<li id="events_li"><a href="events">
+				 События </a></li>
+			<li id="services_li"><a href="services">
+				 Услуги </a></li>
+			<li id="price_li"><a href="price">
+				 Цены </a></li>
+			<li id="clients_li"><a href="clients">
+				 Клиенты </a></li>
+			<li id="contacts_li"><a href="contacts">
+				 Контакты </a></li>
+		</ul>
+	</div>
+
+ 	<div id="content">
+	<p>
+	Базовые услуги охраны представлены в <a href="price">прайс-листе.</a>
+	</p>
+	<p>Кроме этого специалисты предприятия могут качественно 
+	выполнить следующие виды работ:</p>
+	<ul>
+	<li>
+	Сигнализация (автономно или с подключением на пульт централизованного наблюдения),
+	проектирование, монтаж, доставка оборудования, гарантия;</li>
+	<li>
+	Видеонаблюдение, домофоны, электрозамки, регистрация информации
+	на компьютер или регистратор;</li>
+	<li>
+	Контроль и наблюдение за подвижными объектами, их охрана;</li>
+	<li>
+	Системы контроля доступа, учет рабочего времени персонала.</li>
+	</ul>
+	</div>
+
+	<div id="copyright">
+                &copy; 2013 www.pravoporyadok.com.ua
+	</div>
+
+</body>
+</html>
+

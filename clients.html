@@ -1,43 +1,90 @@
-{% if ru %}
-<p> Под охраной ЧП &quot;Правопорядок&quot; находится около 80 объектов, 
-среди которых: </p>
-<ul>
-<li>Территориальное управление Государственной инспекции по энергосбережению 
-в Харьковской области;</li>
-<li>ЗАО &quot;Детский Мир&quot;;</li>
-<li>ОАО &quot;Харьковский ЦУМ&quot;;</li>
-<li>ювелирные магазины, пункты обмена валют, ломбарды;</li>
-<li>общеобразовательные школы города Харкова;</li>
-<li>ОАО &quot;Харковский автогенный завод&quot;;</li>
-<li>компании &quot;GROMEX&quot;, &quot;АРТЕС-М&quot;, &quot;АВАНТИ&quot;</li>
-</ul> и другие объекты.
-{% endif %}
-{% if ua %}
-<p> Під охороною ПП &quot;Правопорядок&quot; знаходяться близько 80 об’єктів, 
-серед яких: </p>
-<ul>
-<li>Територіальне управління 
-Державної інспекції з енергозбереження по Харківській області;</li>
-<li>ЗАТ &quot;Дитячий Світ&quot;;</li>
-<li>ВАТ &quot;Харківський ЦУМ&quot;;</li>
-<li>ювелірні магазини, пункти обміну валют, ломбарди;</li>
-<li>загальноосвітні шкільні заклади міста Харкова;</li>
-<li>ВАТ &quot;Харківський автогенний завод&quot;;</li>
-<li>компанії &quot;GROMEX&quot;, &quot;АРТЕС-М&quot;, &quot;АВАНТІ&quot;</li>
-</ul> та інші об’єкти.
-{% endif %}
-{% if en %}
-<p> There are about 80 objects under protection of Private Enterprise &quot;Pravoporyadok&quot; 
-among which: </p>
-<ul>
-<li>Territorial Administration of the State Inspectorate for Energy Conservation 
-in the Kharkov region;</li>
-<li>JSC &quot;Children's World&quot;; </li>
-<li>JSC &quot;Kharkiv CDS&quot;;</li>
-<li>jewelry shops, exchange offices, pawn shops;</li>
-<li>secondary schools of the city;</li>
-<li>JSC &quot;Kharkiv autogenous plant&quot;;</li>
-<li>company &quot;GROMEX&quot;, &quot;ARTES-M&quot;, &quot;AVANTI&quot;</li>
-</ul> and other objects.
-{% endif %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<script type="text/javascript"
+		src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js">
+	</script>
+	<script type="text/javascript">
+
+		$(document).ready(function() {
+			$("#{{selected_li}}").addClass("selected");
+		});
+
+	</script>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>
+		Правопорядок
+	</title>
+	<link rel = "stylesheet" type = "text/css" href = "static/style/frame3.css" />
+</head>
+<body>
+	<div id="header">
+		<div id="logo">
+			<a href="/">
+				<img src = "static/images/logo.gif" style="border:none;" alt="Logo" />
+			</a>
+		</div>
+
+		<div id="organization">
+		<table id="header_table">
+			<tr>
+				<td id="title_td">
+					<h1>
+						Правопорядок
+					</h1>
+					<h3>
+						 Благородство. Надежность. Безопасность.
+					</h3>
+				</td>
+				<td  id="coat_of_arms_td">
+					<img src = "static/images/coat_of_arms_white.gif" width="80" alt="Kharkov" />
+				</td>
+			</tr>
+		</table>
+		</div>
+	</div>
+
+	<div id="sidebar">
+		<ul id = "menu">
+			<li id="main_li"><a href="/">
+				 Главная </a></li>
+			<li id="events_li"><a href="events">
+				 События </a></li>
+			<li id="services_li"><a href="services">
+				 Услуги </a></li>
+			<li id="price_li"><a href="price">
+				 Цены </a></li>
+			<li id="clients_li"><a href="clients">
+				 Клиенты </a></li>
+			<li id="contacts_li"><a href="contacts">
+				 Контакты </a></li>
+		</ul>
+	</div>
+
+ 	<div id="content">
+		<p> Под охраной ЧП &quot;Правопорядок&quot; находится около 80 объектов, 
+		среди которых: </p>
+		<ul>
+		<li>Территориальное управление Государственной инспекции по энергосбережению 
+		в Харьковской области;</li>
+		<li>ЗАО &quot;Детский Мир&quot;;</li>
+		<li>ОАО &quot;Харьковский ЦУМ&quot;;</li>
+		<li>ювелирные магазины, пункты обмена валют, ломбарды;</li>
+		<li>общеобразовательные школы города Харкова;</li>
+		<li>ОАО &quot;Харковский автогенный завод&quot;;</li>
+		<li>компании &quot;GROMEX&quot;, &quot;АРТЕС-М&quot;, &quot;АВАНТИ&quot;</li>
+		</ul> и другие объекты.
+	</div>
+
+	<div id="copyright">
+                &copy; 2013 www.pravoporyadok.com.ua
+	</div>
+
+</body>
+</html>
+
+
+
+
 
