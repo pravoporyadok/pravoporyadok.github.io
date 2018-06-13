@@ -1,91 +1,255 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-	<script type="text/javascript"
-		src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js">
-	</script>
-	<script type="text/javascript">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ПРАВОПОРЯДОК</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shortcut icon" href="images/favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic|Playfair+Display:400,700&subset=latin,cyrillic">
 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+	<script type="text/javascript">
 		$(document).ready(function() {
 			$("#{{selected_li}}").addClass("selected");
 		});
-
 	</script>
 
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<title>
-		Правопорядок
-	</title>
-	<link rel = "stylesheet" type = "text/css" href = "static/style/frame3.css" />
 </head>
 <body>
-	<div id="header">
-		<div id="logo">
-			<a href="/">
-				<img src = "static/images/logo.gif" style="border:none;" alt="Logo" />
-			</a>
+<header>
+	<nav class="container">
+		<div class="logo">
+			<a href="/"><img src = "images/logo.png" alt="Logo" /></a>
 		</div>
-
-		<div id="organization">
-		<table id="header_table">
-			<tr>
-				<td id="title_td">
-					<h1>
-						Правопорядок
-					</h1>
-					<h3>
-						 Благородство. Надежность. Безопасность.
-					</h3>
-				</td>
-				<td  id="coat_of_arms_td">
-					<img src = "static/images/coat_of_arms_white.gif" width="80" alt="Kharkov" />
-				</td>
-			</tr>
-		</table>
+		<div class="nav-toggle"><span></span></div>
+		<div class="organization">
+			<span id="name">Правопорядок</span>
+			<div style="margin-top:5px">
+			<span id="slog">Безопасность. Надежность. Ответственность.</span>
+			</div>
+			<div class="phone-main">
+			<img src = "images/icone-phone.png" style="position: absolute; width: 30px; margin-top: 1px;" alt="Телефон" /><span style="position: absolute; margin-left: 35px; color: #2a5885;">(067) 553 90 58</span>
+			</div>
 		</div>
-	</div>
-
-	<div id="sidebar">
+		<div class="coat">
+			<img src = "images/сoat_of_arms_white.png" alt="Kharkov" />
+		</div>
+		<!-- Меню сайта -->
 		<ul id = "menu">
-			<li id="main_li"><a href="/">
-				 Главная </a></li>
-			<li id="events_li"><a href="events">
-				 События </a></li>
-			<li id="services_li"><a href="services">
-				 Услуги </a></li>
-			<li id="price_li"><a href="price">
-				 Цены </a></li>
-			<li id="clients_li"><a href="clients">
-				 Клиенты </a></li>
-			<li id="contacts_li"><a href="contacts">
-				 Контакты </a></li>
+			<li id="main_li"><a href="/">Главная</a></li>
+			<li class="active" id="services_li"><a href="services">Услуги</a></li>
+			<li id="contacts_li"><a href="contacts">Контакты</a></li>
 		</ul>
-	</div>
+		
+	</nav>
+</header>
 
- 	<div id="content">
-	<p>
-	Базовые услуги охраны представлены в <a href="price">прайс-листе.</a>
-	</p>
-	<p>Кроме этого специалисты предприятия могут качественно 
-	выполнить следующие виды работ:</p>
-	<ul>
-	<li>
-	Сигнализация (автономно или с подключением на пульт централизованного наблюдения),
-	проектирование, монтаж, доставка оборудования, гарантия;</li>
-	<li>
-	Видеонаблюдение, домофоны, электрозамки, регистрация информации
-	на компьютер или регистратор;</li>
-	<li>
-	Контроль и наблюдение за подвижными объектами, их охрана;</li>
-	<li>
-	Системы контроля доступа, учет рабочего времени персонала.</li>
-	</ul>
-	</div>
+<div class="main">
+	<div class="container">
+  <div class="tabs">
+			<!-- нав.кнопка 1 -->
+			<input type="radio" name="inset" value="" id="tab_1" checked>
+			<label for="tab_1"> &nbsp; Пультовая охрана &nbsp; </label>
+			<!-- нав.кнопка 2 -->
+			<input type="radio" name="inset" value="" id="tab_2">
+			<label for="tab_2"> &nbsp; Физическая охрана &nbsp; </label>
+			<!-- нав.кнопка 4 -->
+		
+			<div id="txt_1">  <!-- Содержимое 1-ого блока -->
+			
+				<div class="box_services">
+					<div class="thumb_service"><img src="images/room.png" alt="Охрана квартиры"></div>
+					<div class="service_info">
+						<div class="service_name">
+						Охрана квартиры
+						</div>
+						от 200 грн в месяц
+						<br>
+						тревожная кнопка + 50 грн в месяц
+						<br>
+						базовый комлект от 4000 грн
+						<div class="line"></div>
+					</div>
+				</div>
+				
+				<div class="box_services">
+					<div class="service_info">
+						<div class="service_name">
+						Охрана дома
+						</div>
+						от 300 грн в месяц
+						<br>
+						тревожная кнопка + 50 грн в месяц
+						<br>
+						базовый комлект от 4000 грн
+						<div class="line"></div>
+					</div>
+					<div class="thumb_service"><img src="images/hause2.jpg" alt="Охрана дома"></div>
+				</div>
+				
+				<div class="box_services">
+					<div class="thumb_service"><img src="images/garage.jpg" alt="Охрана гаража"></div>
+					<div class="service_info">
+						<div class="service_name">
+						Охрана гаража
+						</div>
+						от 250 грн в месяц
+						<br>
+						базовый комлект от 4000 грн
+						<div class="line"></div>
+					</div>
+				</div>
+				
+				<div class="box_services">
+					<div class="service_info">
+						<div class="service_name">
+						Охрана офиса
+						</div>
+						от 300 грн в месяц
+						<br>
+						тревожная кнопка + 50 грн в месяц
+						<br>
+						базовый комлект от 4000 грн
+						<div class="line"></div>
+					</div>
+					<div class="thumb_service"><img src="images/office.jpg" alt="Охрана офиса"></div>
+				</div>
+				
+				<div class="box_services">
+					<div class="thumb_service"><img src="images/kiosk.png" alt="Охрана торгового павильона"></div>
+					<div class="service_info">
+						<div class="service_name">
+						Охрана торгового павильона
+						</div>
+						от 300 грн в месяц
+						<br>
+						тревожная кнопка + 50 грн в месяц
+						<br>
+						базовый комлект от 4000 грн
+						<div class="line"></div>
+					</div>
+				</div>
+				
+				<div style="text-align: left">
+				<h2>Установка охранной сигнализации и систем безопасности</h2>
+				<p><b>Частное предприятие Правопорядок</b> — надёжный партнёр, предлагающий качественные охранные услуги малому, среднему и крупному бизнесу, а также частным лицам.</p>
+				<p>Собственный пульт централизованного наплюдения (далее ПЦН) <b>круглосуточно</b> принимает сигналы с охраняемых объектов.</p>
 
-	<div id="copyright">
-                &copy; 2016 www.pravoporyadok.com.ua
-	</div>
+				<h2>Описание линейки услуг</h2>
+				Перечень услуг охватывает практически все типы недвижимости. Предприятие предлагает:
+				<ul>
+				<li>охрану квартир;</li>
+				<li>охрану коттеджей и частных домов;</li>
+				<li>охрана офисов, магазинов и других объектов бизнеса;</li>
+				<li>тревожная кнопка (сигнализация).</li>
+				</ul>
 
+				Системы безопасности устанавливаются на объекты любой сложности. В среднем, монтаж занимает около 3-4 часов и не требует штробления. Сотрудники предприятия обучают заказчика пользоваться оборудованием и в дальнейшем отвечают на любые возникшие вопросы.
+
+				<p>В каждом случае услуга представлена в нескольких вариантах:</p>
+				<ul>
+				<li>для охраны квартиры предлагаются проводные и беспроводные комплекты, а если у клиента уже есть оборудование – бесплатно;</li>
+				<li>оборудование для охраны коттеджа также предлагается в нескольких вариантах, но отличается набором дополнительных опций и стоимостью;</li>
+				<li>охрана бизнес-объектов предполагает монтаж охранной, тревожной, либо охранной и тревожной сигнализации, а также использование дополнительных возможностей.</li>
+				</ul>
+
+				Цена услуг складывается из стоимости подключения и абонентской платы.
+
+				<h2>Принцип работы тревожной сигнализации</h2>
+				В помещении, в зоне досягаемости персонала, монтируется тревожная кнопка. При необходимости её следует нажать незаметно для злоумышленника.
+				На ПЦН поступает сигнал, о чём оператор сразу сообщает группе реагирования.
+
+				<p>С технической стороны охранная GSM сигнализация: для квартиры, загородного дома и бизнеса — работает по одному принципу:</p>
+
+				<ul>
+				<li>датчики постоянно контролируют ситуацию на охраняемом объекте, обнаруживая несанкционированное проникновение;</li>
+				<li>центральный блок, активированный на охрану, анализирует информацию, полученную с подключенных датчиков;</li>
+				<li>в случае срабатывания одного или нескольких датчиков, центральный блок, в который установлена сим-карта сотового оператора, мгновенно передает сообщение через GSM модуль на ПЦН.</li>
+				</ul>
+
+				Для эффективной работы системы достаточно, чтобы охраняемый объект находился в зоне действия сотовой сети GSM стандарта.
+
+				<p>Важно: оборудование может работать даже при отсутствии электропитания. Если злоумышленник попытается блокировать сигнал – он не сможет этого сделать, так как каналы связи дублируются.</p>
+				</div>
+			</div>
+		
+			<!-- Содержимое 2-ого блока -->
+			<div id="txt_2">
+				<div class="box_services">
+					<div class="thumb_service"><img src="images/security.jpg" alt="Охрана домовладений"></div>
+					<div class="service_info">
+						<div class="service_name">
+						Охрана домовладений
+						</div>
+						от 40 грн в час
+						<div class="line"></div>
+					</div>
+				</div>
+				
+				<div class="box_services">
+					<div class="service_info">
+						<div class="service_name">
+						Охрана офисов
+						</div>
+						от 40 грн в час
+						<div class="line"></div>
+					</div>
+					<div class="thumb_service"><img src="images/security.jpg" alt="Охрана домовладений"></div>
+				</div>
+				
+				<div class="box_services">
+					<div class="thumb_service"><img src="images/security.jpg" alt="Охрана домовладений"></div>
+					<div class="service_info">
+						<div class="service_name">
+						Охрана производственных объектов
+						</div>
+						от 40 грн в час
+						<div class="line"></div>
+					</div>
+				</div>
+				
+				<div class="box_services">
+					<div class="service_info">
+						<div class="service_name">
+						Охрана учебных заведений
+						</div>
+						от 35 грн в час
+						<div class="line"></div>
+					</div>
+					<div class="thumb_service"><img src="images/security.jpg" alt="Охрана домовладений"></div>
+				</div>
+				
+				<div class="box_services">
+					<div class="thumb_service"><img src="images/inkas.png" alt="Сопровождение ценных грузов"></div>
+					<div class="service_info">
+						<div class="service_name">
+						Сопровождение ценных грузов
+						</div>
+						от 50 грн в час
+						<div class="line"></div>
+					</div>
+				</div>
+
+			</div>
+			
+		</div>
+</div> <!-- конец div class="container"-->
+</div>
+<body>
+<footer>
+  <div class="container">
+    <div class="footer-col"><span>ПРАВОПОРЯДОК © 2009 - <script type="text/javascript">document.write(new Date().getFullYear());</script></span></div>
+    <div class="footer-col">
+      <a href="mailto:office@pravoporyadok.com.ua">Написать письмо</a>
+    </div>
+  </div>
+</footer>
+<script>
+$('.nav-toggle').on('click', function(){
+$('#menu').toggleClass('active');
+});
+</script>
 </body>
 </html>
-
