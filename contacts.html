@@ -1,89 +1,126 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-	<script type="text/javascript"
-		src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js">
-	</script>
-	<script type="text/javascript">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Услуги пультовой и физической охраны в городе Харьков">
+	<meta name="keywords" content="харьков охрана, охранная фирма, услуги охраны, охранная сигнализация, сигнализация квартира, охрана квартиры харьков, охрана офиса харьков, охрана дома харьков, видеонаблюдение"/>
+	<title>Правопорядок - Харьков, Лозовая, Первомайский</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shortcut icon" href="images/favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic|Playfair+Display:400,700&subset=latin,cyrillic">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+	<script type="text/javascript">
 		$(document).ready(function() {
 			$("#{{selected_li}}").addClass("selected");
 		});
+	</script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-81903123-4"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
 
+	  gtag('config', 'UA-81903123-4');
 	</script>
 
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<title>
-		Правопорядок
-	</title>
-	<link rel = "stylesheet" type = "text/css" href = "static/style/frame3.css" />
 </head>
 <body>
-	<div id="header">
-		<div id="logo">
-			<a href="/">
-				<img src = "static/images/logo.gif" style="border:none;" alt="Logo" />
-			</a>
+<header>
+	<nav class="container">
+		<div class="logo">
+			<a href="/"><img src = "images/logo.png" alt="Logo" /></a>
 		</div>
-
-		<div id="organization">
-		<table id="header_table">
-			<tr>
-				<td id="title_td">
-					<h1>
-						Правопорядок
-					</h1>
-					<h3>
-						 Благородство. Надежность. Безопасность.
-					</h3>
-				</td>
-				<td  id="coat_of_arms_td">
-					<img src = "static/images/coat_of_arms_white.gif" width="80" alt="Kharkov" />
-				</td>
-			</tr>
-		</table>
+		<div class="nav-toggle"><span></span></div>
+		<div class="organization">
+			<span id="name">Правопорядок</span>
+			<div style="margin-top:5px">
+			<span id="slog">Безопасность. Надежность. Ответственность.</span>
+			</div>
+			<div class="phone-main">
+			<img src = "images/icone-phone.png" style="position: absolute; width: 30px; margin-top: 1px;" alt="Телефон" /><span style="position: absolute; margin-left: 35px; color: #2a5885;">(067) 553 90 58</span>
+			</div>
 		</div>
-	</div>
-
-	<div id="sidebar">
+		<div class="coat">
+			<img src = "images/сoat_of_arms_white.png" alt="Kharkov" />
+		</div>
+		<!-- Меню сайта -->
 		<ul id = "menu">
-			<li id="main_li"><a href="/">
-				 Главная </a></li>
-			<li id="events_li"><a href="events">
-				 События </a></li>
-			<li id="services_li"><a href="services">
-				 Услуги </a></li>
-			<li id="price_li"><a href="price">
-				 Цены </a></li>
-			<li id="clients_li"><a href="clients">
-				 Клиенты </a></li>
-			<li id="contacts_li"><a href="contacts">
-				 Контакты </a></li>
+			<li id="main_li"><a href="/">Главная</a></li>
+			<li id="services_li"><a href="services">Услуги</a></li>
+			<li class="active" id="contacts_li"><a href="contacts">Контакты</a></li>
 		</ul>
-	</div>
+		
+	</nav>
+</header>
 
- 	<div id="content">
-		<h4>
-		ЧАСТНОЕ ПРЕДПРИЯТИЕ
-		</h4>
-		<h4>
-		"ПРАВОПОРЯДОК"
-		</h4>
-		<p>
-		г. Харков, пл. Розы Люксембург, 1/3</p>
-		<p>e-mail: pasechnik.iv@gmail.com</p>
-		<p>&nbsp;</p>
-		<p>
-		Директор - Пасечник Игорь Васильевич</p>
-		<p>
-		тел. 764-47-69, 050-63-24-750, 067-57-06-750</p>
-	</div>
-
-	<div id="copyright">
-                &copy; 2016 www.pravoporyadok.com.ua
-	</div>
-
+<div class="main">
+	<div class="container">
+		<div class="contacts">
+		<h3>Адрес главного офиса:</h3>
+		<p>61003, г. Харьков, пл. Павловская, 1/3, офис 505</p>
+		<p>e-mail: office@pravoporyadok.com.ua</p>
+		<div class="line"></div>
+		</div>
+		<div class="contacts">
+		<h3>Адреса филиалов:</h3>
+		<p>Харьковская обл. г. Лозовая</p>
+		<p>Харьковская обл. г. Первомайский</p>
+		<div class="line"></div>
+		</div>
+		<div class="contacts">
+		<h3>Контактные лица:</h3>
+		
+		<p>Директор: Пасечник Игорь Васильевич</p>
+		<p>	тел.: <span style="color: #2a5885; ">(050) 632 47 50, (067) 570 67 50</span></p>
+		
+		<p>Начальник ПЦН: Корж Владимир Николаевич</p>
+		<p>	тел.: <span style="color: #2a5885; white-space: nowrap;">(099) 639 92 08, (067) 553 90 58</span></p>
+		<div class="line"></div>
+		</div>
+		<div class="contacts">
+		<h3>Круглосуточные телефоны ПЦН:</h3>
+		
+		<p>	тел.: <span style="color: #2a5885; white-space: nowrap;">(057) 750 93 78</span> &nbsp; &nbsp; &nbsp; &nbsp; тел.: <span style="color: #2a5885; white-space: nowrap;">(067) 577 30 88</span></p>
+		<p>	тел.: <span style="color: #2a5885; white-space: nowrap;">(099) 317 83 24</span> &nbsp; &nbsp; &nbsp; &nbsp; тел.: <span style="color: #2a5885; white-space: nowrap;">(063) 627 31 02</span></p>
+		<div class="line"></div>
+		</div>
+		<!-- Карта -->
+		<div id="map"></div>
+		<script>
+		  function initMap() {
+			var uluru = {lat: 49.987905, lng: 36.229043};
+			var map = new google.maps.Map(document.getElementById('map'), {
+			  zoom: 14,
+			  center: uluru
+			});
+			var marker = new google.maps.Marker({
+			  position: uluru,
+			  map: map
+			});
+		  }
+		</script>
+		<script async defer	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsGqj1rpArO2ozj43kCkVDskn6pqXw4p8&callback=initMap">
+		</script>
+	</div> <!-- конец div class="container"-->
+</div>
+<body>
+<footer>
+  <div class="container">
+    <div class="footer-col"><span>ПРАВОПОРЯДОК © 2009 - <script type="text/javascript">document.write(new Date().getFullYear());</script></span></div>
+    <div class="footer-col">
+      <a href="mailto:office@pravoporyadok.com.ua">Написать письмо</a>
+    </div>
+  </div>
+</footer>
+<script>
+$('.nav-toggle').on('click', function(){
+$('#menu').toggleClass('active');
+});
+</script>
 </body>
 </html>
-
-
