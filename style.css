@@ -275,7 +275,7 @@ height: 330px;
 border-radius: 50%;
 overflow: hidden;
 padding: 5px;
-margin-top: 10px;
+margin: auto;
 }
 .thumb_service img {
 position: absolute;
@@ -291,7 +291,7 @@ display: block;
 text-align: center;
 width: 55%;
 float: right;
-margin-top: 100px;
+margin: auto;
 }
 .service_name {
 color: #2a5885;
