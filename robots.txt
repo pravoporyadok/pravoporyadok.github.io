@@ -1,5 +1,5 @@
 Host: pravoporyadok.com.ua
-Sitemap: https://so-wiki.ru/w/sitemap.xml
+Sitemap: http://pravoporyadok.com.ua/sitemap.xml
 
 # будет использована роботами Яндекса
 User-Agent: Yandex
