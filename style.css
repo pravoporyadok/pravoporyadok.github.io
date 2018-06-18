@@ -260,6 +260,7 @@ border: 1px solid #e7e8ec;
 border-radius: 5px;
 text-align: center;
 margin: 10px 0;	
+box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
 }
 .box_services:hover img {
 -webkit-transform: scale(1.1);
@@ -423,10 +424,12 @@ height: 150px;
 .thumb_service img {
 width: 150px;
 height: 150px;
+margin: auto;
 }
 .service_info {
 width: 60%;
 margin-top: 25px;
+margin: auto;
 }
 
 /* скрываем верхнее меню, отменяем обтекание, позиционируем его, сместив на высоту шапки сайта */ 
@@ -498,6 +501,7 @@ display: none;
 .service_info {
 width: 100%;
 margin-top: 10px;
+margin: auto;
 }
 
 /* позиционируем меню на увеличившуюся высоту шапки */
