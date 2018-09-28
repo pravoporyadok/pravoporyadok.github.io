@@ -422,7 +422,7 @@ display: none;
 .phone-main {
 display: block;
 margin: 30px 0;
-font-size: 1.9em;
+font-size: 2.2em;
 }
 .contacts {
 width: 100%;
@@ -494,7 +494,7 @@ text-align:center;
 float: none;
 }
 .organization #name {
-font-size: 2em;
+display: none;
 }
 .organization #slog {
 display: none;
