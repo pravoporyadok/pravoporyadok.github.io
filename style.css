@@ -450,7 +450,7 @@ background: white;
 float: none;
 position: absolute;
 overflow: hidden;
-top: 63px;
+width: 100%;
 right: 0;
 left: 0;
 margin: 0;
@@ -514,11 +514,6 @@ display: none;
 width: 100%;
 margin-top: 10px;
 margin: auto;
-}
-
-/* позиционируем меню на увеличившуюся высоту шапки */
-#menu {
-top: 80px;
 }
 
 /* отменяем обтекание для столбцов подвала страницы */
