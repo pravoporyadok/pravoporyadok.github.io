@@ -262,7 +262,6 @@ margin: 50px 0;
 .box_services {
 display: flex;
 width: 100%;
-height: 350px;
 border: 1px solid #e7e8ec;
 border-radius: 5px;
 text-align: center;
@@ -429,9 +428,6 @@ font-size: 2.2em;
 width: 100%;
 }
 
-.box_services {
-height: 175px;
-}
 .thumb_service {
 width: 150px;
 height: 150px;
@@ -510,7 +506,6 @@ font-size: 2.2em;
 }
 
 .box_services {
-height: 155px;
 text-align: center;
 }
 .thumb_service {
