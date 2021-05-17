@@ -101,6 +101,11 @@ nav {
   font-size: 2.2em;
   font-weight: 600;
 }
+.phone_number {
+  position: absolute;
+  margin-left: 35px;
+  color: #2a5885;
+ }
 .coat {
   position:relative;
   display: block; 
@@ -423,11 +428,6 @@ header {
   margin: 7px 0;
   font-size: 2.2em;
 }
-.phone_number {
-  position: absolute;
-  margin-left: 35px;
-  color: #2a5885;
- }
 .contacts {
   width: 100%;
 }
