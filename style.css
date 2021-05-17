@@ -265,12 +265,11 @@ footer {
 .box_services {
   display: flex;
   width: 100%;
-  border: 1px solid #e7e8ec;
+  border: 5px solid #e7e8ec;
   text-align: center;
   margin: 20px 0;
   padding-top: 15px;
   padding-bottom: 15px;
-  box-shadow: 0 0 0 1px rgba(255,255,255,0.6) inset, 0 0 7px rgba(0,0,0,0.4), 0 0 0 rgba(0,0,0,0.33);
   -webkit-transition: box-shadow 0.1s;
   transition: box-shadow 0.1s;
 }
