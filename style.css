@@ -483,6 +483,7 @@ nav {
   float: left;
   margin-bottom: 15px;
   margin-right: 15px;
+  max-width: 45px;
 }
 .organization {
   margin-top: 0px;
