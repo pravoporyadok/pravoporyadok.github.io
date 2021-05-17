@@ -529,6 +529,9 @@ nav {
   margin-top: 10px;
   margin: auto;
 }
+.tabs {
+ text-align: center;
+ }
 
 /* отменяем обтекание для столбцов подвала страницы */
 .footer-col {
