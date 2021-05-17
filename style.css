@@ -424,6 +424,11 @@ header {
   margin: 7px 0;
   font-size: 2.2em;
 }
+.phone_number {
+  position: absolute;
+  margin-left: 35px;
+  color: #2a5885;
+ }
 .contacts {
   width: 100%;
 }
@@ -509,6 +514,9 @@ nav {
 .phone-main img {
  display: none;
 }
+.phone_number {
+  margin-left: 0px;
+ }  
 
 .box_services {
   text-align: center;
