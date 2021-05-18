@@ -283,6 +283,16 @@ footer {
   -o-transform: scale(1.1);
   transform: scale(1.1);
 }
+.elem-shield {
+  display: none;
+  margin: 40% 0 0 40%;
+  position: absolute;
+  z-index: 2;
+}
+.box_services:hover .elem-shield {
+  display: block;
+}
+
 .thumb_service {
   position: relative;
   float: left;
