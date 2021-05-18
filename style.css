@@ -284,6 +284,7 @@ footer {
   transform: scale(1.1);
 }
 .elem_shield {
+  background: url(images/shield.svg);
   position: absolute;
   margin: 35% 0 0 35%;
   z-index: 2;
