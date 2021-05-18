@@ -290,10 +290,7 @@ footer {
   opacity: 0;
 }
 .box_services:hover .elem_shield {
-  -webkit-transform: opacity(1);
-  -moz-transform: opacity(1);
-  -o-transform: opacity(1);
-  transform: opacity(1);
+  opacity: 1;
 }
 
 .thumb_service {
