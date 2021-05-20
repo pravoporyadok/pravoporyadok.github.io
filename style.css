@@ -287,8 +287,8 @@ footer {
   background: url(images/shield.svg);
   background-repeat: no-repeat;
   background-position: center;
-  width: 330px;
-  height: 330px;
+  width: 100%;
+  height: 100%;
   position: absolute;
   margin: 0;
   z-index: 2;
@@ -301,8 +301,8 @@ footer {
   background: url(images/security.svg);
   background-repeat: no-repeat;
   background-position: center;
-  width: 330px;
-  height: 330px;
+  width: 100%;
+  height: 100%;
   position: absolute;
   margin: 0;
   z-index: 2;
