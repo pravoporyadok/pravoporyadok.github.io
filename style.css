@@ -524,7 +524,7 @@ nav {
 }
 .organization #name {
   display: block;
-  font-size: 1.5em;
+  font-size: 1.7em;
   text-align: left;
 }
 .organization #slog {
@@ -536,7 +536,7 @@ nav {
 .phone-main {
   display: block;
   margin: 7px 0;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 .phone-main img {
  display: none;
