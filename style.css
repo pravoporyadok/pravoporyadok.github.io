@@ -166,10 +166,10 @@ margin-right: 0;
   margin: 5px 0;
   background: #CCC;
   background: -webkit-gradient(linear, 0 0, 100% 0, from(rgba(204,204,204,1)), color-stop(0.15, rgba(204,204,204,1)), color-stop(0.85, rgba(204,204,204,1)), color-stop(0.99, rgba(255,255,255,1)));
-  background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(204,204,204,1) 15%, rgba(204,204,204,1) 85%, rgba(255,255,255,1) 99%);
-  background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(204,204,204,1) 15%, rgba(204,204,204,1) 85%, rgba(255,255,255,1) 99%);
-  background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(204,204,204,1) 15%, rgba(204,204,204,1) 85%, rgba(255,255,255,1) 99%);
-  background: linear-gradient(left, rgba(255,255,255,1) 0%, rgba(204,204,204,1) 15%, rgba(204,204,204,1) 85%, rgba(255,255,255,1) 99%);
+  background: -webkit-linear-gradient(left, rgba(204,204,204,1) 0%, rgba(204,204,204,1) 15%, rgba(204,204,204,1) 85%, rgba(255,255,255,1) 99%);
+  background: -moz-linear-gradient(left, rgba(204,204,204,1) 0%, rgba(204,204,204,1) 15%, rgba(204,204,204,1) 85%, rgba(255,255,255,1) 99%);
+  background: -o-linear-gradient(left, rgba(204,204,204,1) 0%, rgba(204,204,204,1) 15%, rgba(204,204,204,1) 85%, rgba(255,255,255,1) 99%);
+  background: linear-gradient(left, rgba(204,204,204,1) 0%, rgba(204,204,204,1) 15%, rgba(204,204,204,1) 85%, rgba(255,255,255,1) 99%);
 }
 
 /* кнопка переключения меню, появляющаяся при ширине 768px */
