@@ -165,11 +165,10 @@ margin-right: 0;
 /* кнопка переключения меню, появляющаяся при ширине 768px */
 .nav-toggle {
   display: none;
-  position: relative;
-  float: right;
+  position: absolute;
+  right: 10px;
   width: 40px;
   height: 40px;
-  margin-left: 20px;
   cursor: pointer;
 }
 .nav-toggle span {
