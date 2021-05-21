@@ -482,6 +482,7 @@ header {
   float: none;
   position: relative;
   overflow: hidden;
+  text-align: center;
   width: 100%;
   right: 0;
   left: 0;
