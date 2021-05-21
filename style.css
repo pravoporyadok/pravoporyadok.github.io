@@ -479,7 +479,7 @@ header {
   max-height: 0;
   background: white;
   float: none;
-  position: absolute;
+  position: relative;
   overflow: hidden;
   width: 100%;
   right: 0;
@@ -491,7 +491,6 @@ header {
 /* делаем элементы списка блочными, чтобы они располагались друг под другом */
 #menu li {
   display: block;
-  padding-left: 15px;
   border-bottom: 1px solid #EBEBE3;
   margin-right: 0;
 }
