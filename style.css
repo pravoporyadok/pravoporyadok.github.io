@@ -561,7 +561,7 @@ fieldset {
 	resize: none;
 }
 .g-form__input-wrapper input:focus, .g-form__input-wrapper textarea:focus {
-	border-color: #7055f0; 
+	border-color: #9cbfeb; 
 }
 
 .g-form__input-wrapper_hidden {
