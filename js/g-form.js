@@ -76,6 +76,10 @@ $(function() {
 
 	  	// Очищаем поля формы
 	  	form.reset();
+		
+		setTimeout(function(){
+			$(".close").click();
+		}, 1000);
 
 	  } else {
 	  	formTitle.css({
