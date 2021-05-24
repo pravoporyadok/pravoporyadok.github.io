@@ -444,7 +444,7 @@ fieldset {
 }
 
 .view_btn:hover {
-  border: #2a5885;
+  border-color: #2a5885;
 }
 
 .modal {
