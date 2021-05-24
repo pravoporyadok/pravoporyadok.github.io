@@ -86,6 +86,7 @@
 						<br>
 						монтаж - <b>бесплатно</b>
 						<div class="line"></div>
+						<button class="view_btn" onclick="viewer('Охрана квартиры');">Оставить заявку</button>
 					</div>
 				</div>
 				
@@ -104,6 +105,7 @@
 						<br>
 						монтаж - <b>бесплатно</b>
 						<div class="line"></div>
+						<button class="view_btn" onclick="viewer('Охрана частного дома');">Оставить заявку</button>
 					</div>
 					<div class="thumb_service">
 						<div class="elem_shield"></div>
@@ -128,6 +130,7 @@
 						<br>
 						монтаж - <b>бесплатно</b>
 						<div class="line"></div>
+						<button class="view_btn" onclick="viewer('Охрана гаража');">Оставить заявку</button>
 					</div>
 				</div>
 				
@@ -146,6 +149,7 @@
 						<br>
 						монтаж - <b>бесплатно</b>
 						<div class="line"></div>
+						<button class="view_btn" onclick="viewer('Охрана офиса');">Оставить заявку</button>
 					</div>
 					<div class="thumb_service">
 						<div class="elem_shield"></div>
@@ -172,6 +176,7 @@
 						<br>
 						монтаж - <b>бесплатно</b>
 						<div class="line"></div>
+						<button class="view_btn" onclick="viewer('Охрана торгового павильона');">Оставить заявку</button>
 					</div>
 				</div>
 				
@@ -231,6 +236,7 @@
 						</div>
 						от <b>55 грн</b> в час
 						<div class="line"></div>
+						<button class="view_btn" onclick="viewer('Охрана домовладений');">Оставить заявку</button>
 					</div>
 				</div>
 				
@@ -241,6 +247,7 @@
 						</div>
 						от <b>55 грн</b> в час
 						<div class="line"></div>
+						<button class="view_btn" onclick="viewer('Охрана офисов');">Оставить заявку</button>
 					</div>
 					<div class="thumb_service">
 						<div class="elem_secur"></div>
@@ -258,6 +265,7 @@
 						</div>
 						от <b>60 грн</b> в час
 						<div class="line"></div>
+						<button class="view_btn" onclick="viewer('Охрана производственных объектов');">Оставить заявку</button>
 					</div>
 				</div>
 				
@@ -268,6 +276,7 @@
 						</div>
 						от <b>50 грн</b> в час
 						<div class="line"></div>
+						<button class="view_btn" onclick="viewer('Охрана учебных заведений');">Оставить заявку</button>
 					</div>
 					<div class="thumb_service">
 						<div class="elem_secur"></div>
@@ -286,6 +295,7 @@
 						</div>
 						от <b>100 грн</b> в час
 						<div class="line"></div>
+						<button class="view_btn" onclick="viewer('Сопровождение ценных грузов');">Оставить заявку</button>
 					</div>
 				</div>
 
@@ -303,11 +313,18 @@
     </div>
   </div>
 </footer>
+<div id="viewModal" class="modal">
+	<div class="modal-content">
+	<span class="close">&times;</span>	
+	<div id="form"></div>
+	</div>
+</div>
+<script src="../forms/js/feedback.js"></script>	
+
 <script>
 $('.nav-toggle').on('click', function(){
 $('#menu').toggleClass('active');
 });
 </script>
-<script src="../forms/js/feedback.js"></script>	
 </body>
 </html>
