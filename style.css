@@ -572,7 +572,7 @@ fieldset {
 	justify-content: center;
 }
 .g-form__button {
-	background: #9cbfeb;
+	background: #527db3;
 	outline: none;
 	border: none;
 	border-radius: 25px;
@@ -581,8 +581,8 @@ fieldset {
 	justify-content: center;
 	align-items: center;
 	padding: 0 30px;
-	font: 400 .9rem 'Roboto', sans-serif;
-	color: #d2d2d3;
+	font: 600 .9rem 'Roboto', sans-serif;
+	color: #ffffff;
 	text-transform: uppercase;
 	cursor: pointer;
 	transition: .3s;
