@@ -512,9 +512,10 @@ fieldset {
 	font-size: 1.2rem;
 	text-transform: uppercase;
 	line-height: 1.5;
+	color: #ffffff;
 }
 .g-form__title a {
-	color: #e8cd96;
+	color: #ffffff;
 }
 .g-form__title_main {}
 .g-form__preloader 
