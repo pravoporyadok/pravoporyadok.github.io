@@ -471,13 +471,13 @@ fieldset {
 
 
 @-webkit-keyframes animatetop {
-    from {top:50%; opacity:0} 
-    to {top:0; opacity:1}
+    from {bottom:50%; opacity:0} 
+    to {bottom:0; opacity:1}
 }
 
 @keyframes animatetop {
-    from {top:50%; opacity:0}
-    to {top:0; opacity:1}
+    from {bottom:50%; opacity:0}
+    to {bottom:0; opacity:1}
 }
 
 
