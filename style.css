@@ -432,16 +432,20 @@ fieldset {
 
 /* кнопка вызова формы обратной свзяи */
 .view_btn {
-  background-color: #9C27B0;
-  color: white;
+  background-color: #9cbfeb33;
+  color: #2a5885;
   padding: 12px 16px;
-  font-size: 18px;
-  font-weight: bold;
-  border: none;
+  font-size: 1.2em;
+  font-weight: 600;
   cursor: pointer;
-  width: 180px;
+  width: 195px;
+  border: 2px solid #6e6e6e;
+  margin-top: 15px;
 }
 
+.view_btn:hover {
+  border: #2a5885;
+}
 
 .modal {
     display: none;
