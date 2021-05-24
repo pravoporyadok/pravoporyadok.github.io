@@ -501,7 +501,7 @@ fieldset {
 	width: 100%;
 	max-width: 450px;
 	padding: 50px;
-	background: #1c1e21;
+	background: #254156;
 	box-shadow: 0 0 20px rgba(0,0,0, .2);
 
 }
@@ -548,13 +548,11 @@ fieldset {
 .g-form__input-wrapper input, .g-form__input-wrapper textarea{
 	width: 100%;
 	padding: 0 15px;
-	border: 1px solid #25272b;
-	border-radius: 3px;
+	border: 2px solid #254156;
 	background: #1c1e21;
 	height: 50px;
 	font: 1rem 'Roboto', sans-serif;
 	outline: none;
-	color: #d2d2d3; 
 	font-weight: 300;
 }
 .g-form__input-wrapper textarea {
@@ -574,7 +572,7 @@ fieldset {
 	justify-content: center;
 }
 .g-form__button {
-	background: #7055f0;
+	background: #9cbfeb;
 	outline: none;
 	border: none;
 	border-radius: 25px;
