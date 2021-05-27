@@ -361,6 +361,7 @@ footer {
   border-bottom: 1px solid rgba(156, 191, 235, 0);
  }
 .service_name a:hover {
+  color: #9cbfeb;
   border-bottom: 1px solid rgba(156, 191, 235, .4);
 }
 .service_desc {
