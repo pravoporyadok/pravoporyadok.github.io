@@ -22,11 +22,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
+  min-width: 350px;
   font-family: 'Open Sans', arial, sans-serif;
   font-size: 14px;
   line-height: 1;
   color: #373737;
   background: #f7f7f7;
+  
 }
 
 .slight_shadow {
@@ -356,14 +358,6 @@ footer {
 .service_name:hover img {
   text-decoration: underline ;
 }
-.service_name a {
-  color:#2a5885;
-  border-bottom: 1px solid rgba(156, 191, 235, 0);
- }
-.service_name a:hover {
-  color: #9cbfeb;
-  border-bottom: 1px solid rgba(156, 191, 235, .4);
-}
 .service_desc {
   font-size: 12px;
   overflow: hidden;
@@ -453,8 +447,6 @@ fieldset {
 
 .view_btn:hover {
   border-color: #9cbfeb;
-  background-color: #9cbfeb;
-  color: #ffffff;
 }
 
 .modal {
@@ -630,6 +622,36 @@ fieldset {
 							left: 0%; } 
 						}
 
+/* шаги заказа */
+.steps {
+	padding: 15px 0;
+}
+.step {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 15px;
+}
+.step_numb {
+	display: inline-flex;
+	width: 6em;
+	height: 6em;
+	border-radius: 50%;
+	border: 4px solid rgba(156, 191, 235, .3);
+	background-color: #9cbfeb33;
+}
+.step_numb_text {
+	margin: auto;
+	font-size: 3em;
+	font-weight: bold;
+	color: #2a5885;
+}
+.step_text {
+	font-size: 150%; 
+	font-weight: bold;
+	color: #6e6e6e;
+}
 
 @media (max-width: 768px) {
 /* показываем кнопку для переключения верхней навигации */
