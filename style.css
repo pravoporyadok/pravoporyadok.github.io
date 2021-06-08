@@ -625,33 +625,34 @@ fieldset {
 
 /* шаги заказа */
 .steps {
-	padding: 15px 0;
+  padding: 15px 0;
 }
 .step {
-	display: flex;
-	flex-wrap: nowrap;
-	align-items: center;
-	flex-direction: column;
-	margin-bottom: 15px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 15px;
 }
 .step_numb {
-	display: inline-flex;
-	width: 6em;
-	height: 6em;
-	border-radius: 50%;
-	border: 4px solid rgba(156, 191, 235, .3);
-	background-color: #9cbfeb33;
+  display: inline-flex;
+  width: 6em;
+  height: 6em;
+  border-radius: 50%;
+  border: 4px solid rgba(156, 191, 235, .3);
+  background-color: #9cbfeb33;
+  cursor: pointer;
 }
 .step_numb_text {
-	margin: auto;
-	font-size: 3em;
-	font-weight: bold;
-	color: #2a5885;
+  margin: auto;
+  font-size: 3em;
+  font-weight: bold;
+  color: #2a5885;
 }
 .step_text {
-	font-size: 150%; 
-	font-weight: bold;
-	color: #6e6e6e;
+  font-size: 150%; 
+  font-weight: bold;
+  color: #6e6e6e;
 }
 
 @media (max-width: 768px) {
