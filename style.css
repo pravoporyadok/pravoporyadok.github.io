@@ -28,7 +28,6 @@ body {
   line-height: 1;
   color: #373737;
   background: #f7f7f7;
-  
 }
 
 .slight_shadow {
@@ -447,6 +446,8 @@ fieldset {
 
 .view_btn:hover {
   border-color: #9cbfeb;
+  background-color: #9cbfeb;
+  color: #ffffff;
 }
 
 .modal {
@@ -808,3 +809,4 @@ nav {
   margin-bottom: 0;
 }
 }
+
