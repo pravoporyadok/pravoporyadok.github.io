@@ -650,6 +650,7 @@ fieldset {
 	border: 4px solid rgba(156, 191, 235, .3);
 	background-color: #9cbfeb33;
 	cursor: pointer;
+	flex-shrink: 0;
 }
 .step_numb_text {
 	margin: auto;
