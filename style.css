@@ -639,7 +639,7 @@ fieldset {
 	display: flex;
 	flex-wrap: nowrap;
 	align-items: center;
-	flex-direction: column;
+	/*flex-direction: column;*/
 	margin-bottom: 15px;
 }
 .step_numb {
@@ -662,6 +662,7 @@ fieldset {
 	font-size: 150%; 
 	font-weight: bold;
 	color: #6e6e6e;
+	margin-left: 15px;
 }
 
 @media (max-width: 768px) {
