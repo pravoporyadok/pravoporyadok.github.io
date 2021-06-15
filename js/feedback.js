@@ -9,11 +9,11 @@ function viewer(text) {
 	modal.style.display = 'flex';
 
 	var script = document.createElement("script");
-    script.src = '/js/g-form.js';
+    script.src = '../js/g-form.js';
     document.head.appendChild(script);
 	
 	var script = document.createElement("script");
-    script.src = '/js/mask-tel.js';
+    script.src = '../js/mask-tel.js';
     document.head.appendChild(script);
 }
 
