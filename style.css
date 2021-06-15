@@ -666,6 +666,55 @@ fieldset {
 	margin-left: 15px;
 }
 
+/* перечень комплектов */
+.security_set {
+  margin: 30px 0px;
+  border-bottom: 1px solid rgba(156, 191, 235, .3);
+  padding-bottom: 15px;
+}
+.security_set_box {
+  display: flex;
+}
+.security_set_img {
+  max-width: 400px;
+  height: 100%;
+  margin-right: 20px;
+}
+.security_set_desc {
+  display: flex;
+  flex-direction: column;
+}
+.security_set_desc .view_btn {
+  align-self: center;
+}
+.set_feature {
+  display: flex;
+  align-items: center;
+}
+.set_feature#components {
+  border: 2px solid rgba(156, 191, 235, .3);
+  padding: 10px;
+}
+.icon_feature {
+  width: 35px;
+  margin-right: 5px;
+}
+.set_feature_note {
+	opacity: 0.5;
+	font-size: 0.8em;
+}
+.price_text {
+  font-size: 2em;
+}
+.price_cost {
+  font-size: 2em;
+  font-weight: 800;
+  color: #2a5885;
+}
+.price_present {
+  font-size: 1.5em;
+}
+
 @media (max-width: 768px) {
 /* показываем кнопку для переключения верхней навигации */
 header {
@@ -748,6 +797,11 @@ header {
 }
 .widget-post-title {
   font-size: 1.5em;
+}
+
+/* перечень комплектов */
+.security_set_box {
+  flex-direction: column;
 }
 }
 @media (max-width: 480px) {
