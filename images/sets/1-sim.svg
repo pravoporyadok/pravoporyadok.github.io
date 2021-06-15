@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 56 56"
+   id="2g"
+   version="1.1"
+   sodipodi:docname="1 sim.svg"
+   inkscape:version="0.92.1 r15371">
+  <metadata
+     id="metadata15">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs13" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     id="namedview11"
+     showgrid="false"
+     inkscape:zoom="4.2142857"
+     inkscape:cx="28"
+     inkscape:cy="28"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g8" />
+  <g
+     fill="none"
+     fill-rule="evenodd"
+     id="g8">
+    <path
+       d="M0 0h56v56H0z"
+       id="path2" />
+    <path
+       stroke="#181818"
+       d="M24.512 43.509v-3.171m6.006 2.998v-4.022c0-1-.811-1.811-1.81-1.811h-4.196v-.096.096h-5.68m5.68 2.835v3.171h10.497c.848 0 1.534-.686 1.534-1.534V27.043c0-.847-.686-1.536-1.534-1.536h-4.49v5h-6.007v-5h6.006v5h6.025-6.025v.213-.214h-6.006v-4.999h-4.469c-.847 0-1.535.689-1.535 1.536v14.932c0 .848.688 1.534 1.535 1.534h4.469m-5.68-13.003h5.68v.214-.214h-5.68zM30.615 7.5l12.497 12.44c.277.281.431.66.431 1.055V46.28a2.253 2.253 0 0 1-2.255 2.251H14.762a2.252 2.252 0 0 1-2.254-2.25V9.752A2.254 2.254 0 0 1 14.762 7.5h15.853zm-.097 17.805v.202-.202zm-6.006 0v.202-.202zm0 18.34v-.136.135zm0-3.307v-2.835 2.835z"
+       id="path4" />
+  </g>
+</svg>
