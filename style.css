@@ -668,7 +668,7 @@ fieldset {
 
 /* перечень комплектов */
 .security_set {
-  margin: 30px 0px;
+  margin-bottom: 30px;
   border-bottom: 1px solid rgba(156, 191, 235, .3);
   padding-bottom: 15px;
 }
