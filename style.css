@@ -671,6 +671,7 @@ fieldset {
   margin-bottom: 30px;
   border-bottom: 1px solid rgba(156, 191, 235, .3);
   padding-bottom: 15px;
+  text-align: left
 }
 .security_set_box {
   display: flex;
