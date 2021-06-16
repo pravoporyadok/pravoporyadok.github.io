@@ -1,9 +1,9 @@
 Host: pravoporyadok.com.ua
-Sitemap: http://pravoporyadok.com.ua/sitemap.xml
+Sitemap: https://pravoporyadok.com.ua/sitemap.xml
 
 # будет использована роботами Яндекса
 User-Agent: Yandex
-Sitemap: http://pravoporyadok.com.ua/sitemap.xml
+Sitemap: https://pravoporyadok.com.ua/sitemap.xml
 # будет использована роботами Google
 User-Agent: Googlebot
-Sitemap: http://pravoporyadok.com.ua/sitemap.xml
+Sitemap: https://pravoporyadok.com.ua/sitemap.xml
