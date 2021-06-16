@@ -5,20 +5,46 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
+
 <url>
   <loc>https://www.pravoporyadok.com.ua/</loc>
-  <lastmod>2021-05-24T16:23:06+00:00</lastmod>
+  <lastmod>2021-06-15T13:14:03+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.pravoporyadok.com.ua/services</loc>
-  <lastmod>2021-05-24T16:23:06+00:00</lastmod>
+  <lastmod>2021-06-15T13:14:03+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.pravoporyadok.com.ua/contacts</loc>
-  <lastmod>2021-05-24T16:23:06+00:00</lastmod>
+  <lastmod>2021-06-15T13:14:03+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.pravoporyadok.com.ua/services/apartment_security</loc>
+  <lastmod>2021-06-15T13:14:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.pravoporyadok.com.ua/services/home_security</loc>
+  <lastmod>2021-06-15T13:14:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.pravoporyadok.com.ua/services/garage_security</loc>
+  <lastmod>2021-06-15T13:14:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.pravoporyadok.com.ua/services/office_security</loc>
+  <lastmod>2021-06-15T13:14:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.pravoporyadok.com.ua/services/trade_pavilion_security</loc>
+  <lastmod>2021-06-15T13:14:03+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
